@@ -1,0 +1,135 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_thing_uiConfig",
+            "name": "rock-entity-search-result_thing",
+            "type": "uiConfig",
+            "properties": {
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "kruthik.renukaradhya@etrondigital.com_user",
+                "modifiedDate": "2026-03-05T07:02:04.217-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "_DEFAULT",
+                            "channel": "_DEFAULT",
+                            "component": "rock-entity-search-result",
+                            "country": "_DEFAULT",
+                            "domain": "thing",
+                            "entityType": "_DEFAULT",
+                            "relationship": "_DEFAULT",
+                            "role": "_DEFAULT",
+                            "tenant": "_DEFAULT",
+                            "user": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "thumbnail": {
+                                                "displayType": "image",
+                                                "visible": false,
+                                                "displaySequence": 1,
+                                                "name": "thumbnailid",
+                                                "width": 16,
+                                                "header": "",
+                                                "readOnly": false,
+                                                "sortable": false
+                                            },
+                                            "typeExternalName": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": true,
+                                                "displaySequence": 17,
+                                                "name": "typeExternalName",
+                                                "sortable": false
+                                            },
+                                            "id": {
+                                                "name": "id",
+                                                "sortable": false,
+                                                "filterable": false,
+                                                "isMetaDataColumn": true,
+                                                "visible": false,
+                                                "displaySequence": 40
+                                            },
+                                            "name": {
+                                                "name": "name",
+                                                "sortable": false,
+                                                "filterable": false,
+                                                "isMetaDataColumn": true,
+                                                "visible": false,
+                                                "displaySequence": 50
+                                            },
+                                            "thgpimid": {
+                                                "name": "thgpimid",
+                                                "header": "PIMID",
+                                                "visible": true,
+                                                "sortable": true,
+                                                "editable": false,
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "displaySequence": 20
+                                            },
+                                            "thgmasterhierarchy": {
+                                                "name": "thgmasterhierarchy",
+                                                "header": "Master Hierarchy",
+                                                "visible": true,
+                                                "sortable": false,
+                                                "editable": false,
+                                                "displaySequence": 30
+                                            },
+                                            "thgprimaryupc": {
+                                                "name": "thgprimaryupc",
+                                                "header": "Primary UPC",
+                                                "visible": true,
+                                                "sortable": true,
+                                                "editable": false,
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "displaySequence": 40
+                                            },
+                                            "thgsupplierprimary": {
+                                                "name": "thgsupplierprimary",
+                                                "header": "Ecomm Primary Vendor",
+                                                "visible": true,
+                                                "sortable": true,
+                                                "displaySequence": 50
+                                            },
+                                            "thgjdedesc": {
+                                                "name": "thgjdedesc",
+                                                "header": "JDE Description 1 (30 Characters)",
+                                                "visible": true,
+                                                "editable": false,
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "displaySequence": 60
+                                            },
+                                            "thglitm": {
+                                                "name": "thglitm",
+                                                "visible": true,
+                                                "sortable": true,
+                                                "displaySequence": 70
+                                            },
+                                            "thgjdedept": {
+                                                "name": "thgjdedept",
+                                                "header": "JDE Department",
+                                                "visible": true,
+                                                "displaySequence": 80
+                                            }
+                                        }
+                                    },
+                                    "viewConfig": {}
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
